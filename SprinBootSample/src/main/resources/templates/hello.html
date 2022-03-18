@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+  <head>
+    <meta charset="UTF-8"></meta> 
+    <title>Hello World</title>
+  </head>
+
+  <body>
+  
+    <h1>Hello worlds</h1>
+    
+    <form method="post" action="/hello">
+    <label for="fname">Please enter a name:</label>
+    <input type="text" name="text1" /><br/>
+    <input type="submit" value="click" />
+    </form>
+    
+    <br/>
+    
+    <form method="post" action="/hello/db">
+    <label for="fname">Employee Id:</label>
+    <input type="text" name="text2" /><br/>
+    <input type="submit" value="click" />
+    </form>
+    
+    
+  
+  </body>
+
+</html>
